@@ -1,11 +1,5 @@
-variable "tfami" {
-  type = string
-  default = "ami-2757f631"
-}
-
-
-
-variable "t2micro" {
-  type = string
-  default = "t2.micro"
+variable "instance_name" {
+  description = "Value of the Name tag for the EC2 instance"
+  type        = string
+  default     = "thisisdefaultname"
 }
